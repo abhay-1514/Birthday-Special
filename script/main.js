@@ -2,7 +2,7 @@
     let isDialogVisible = false; // Prevents multiple dialogs from showing
 
     const countdownElement = document.getElementById('countdown');
-    const targetDate = new Date("2025-03-21T00:00:00").getTime(); // Set target date for countdown
+    const targetDate = new Date("2025-04-21T00:00:00").getTime(); // Set target date for countdown
     let currentMessageIndex = 0;
 
     function updateCountdown() {
