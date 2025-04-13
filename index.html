@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Birthday Surprise 🎉</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+
+  <div id="main-content">
+  <!-- Floating hearts container -->
+  <div class="hearts-container"></div>
+
+  <!-- Countdown timer -->
+  <div class="countdown-container">
+    <h1>⏳ Just a little more...</h1>
+    <p>Your surprise unlocks at midnight 💖</p>
+    <div id="countdown" class="timer"></div>
+    <div id="dialog-container" class="dialog hidden"></div>
+  </div>
+
+  <div id="dialoug-container" class="dialoug hidden">
+    <div id="dialoug-box">
+      <p id="dialoug-message"></p>
+      <div id="dialoug-buttons"></div>
+    </div>
+  </div>
+
+  <!-- Hanging photos -->
+  <!-- <div class="photo-gallery">
+    <div class="photo-item">
+      <div class="thread"></div>
+      <img src="assets/images/Img 1.jpg" alt="Photo 1"/>
+    </div>
+    <div class="photo-item">
+      <div class="thread"></div>
+      <img src="assets/images/Img 2.jpg" alt="Photo 2"/>
+    </div>
+    <div class="photo-item">
+      <div class="thread"></div>
+      <img src="assets/images/Img 3.jpg" alt="Photo 3"/>
+    </div>
+  </div> -->
+</div>
+
+<div id="surprise-screen" class="hidden">
+  <div class="hearts-container"></div>
+  <h1 class="wish-message">🎉 Happy Birthday My Love 🎉</h1>
+  <p class="wish-message1" >On this special day, I just want to take a moment to celebrate the amazing person you are. 
+    May your heart be filled with joy, your mind with peace, and your life with endless laughter. 
+    May this year bring you beautiful memories, exciting adventures, and all the happiness you truly deserve. 
+    You deserve nothing less than the best, today and always. Wishing you the happiest of birthdays, 
+    filled with love and the warmth of those who care about you.</p>
+  <div class="photo-gallery">
+    <div class="photo-item"><div class="thread"></div><img src="assets/images/Img 1.jpg" alt="Photo 1"></div>
+    <div class="photo-item"><div class="thread"></div><img src="assets/images/Img 2.jpg" alt="Photo 2"></div>
+    <div class="photo-item"><div class="thread"></div><img src="assets/images/Img 3.jpg" alt="Photo 2"></div>
+
+    <!-- Background music -->
+  <audio id="bg-music" src="assets/music/Finding Her.mp3" loop></audio> 
+  
+  
+  </div>
+  <div id="poem-container" class="poem-container hidden">
+    <p id="poem-text"></p>
+  </div>
+</div>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
